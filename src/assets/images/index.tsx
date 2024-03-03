@@ -43,7 +43,7 @@ import "./svgs/product-7.svg";
 import "./svgs/product-8.svg";
 import "./svgs/product-9.svg";
 import search from "./svgs/search.svg";
-import "./svgs/technology 1.svg";
+import technology from "./svgs/technology 1.svg";
 import togglebtn from "./svgs/togglebtn.svg";
 import twitter from "./svgs/twitter.svg";
 import "./svgs/uil_arrow-growth.svg";
@@ -78,3 +78,5 @@ export const search_img = search;
 export const cart_img = cart;
 export const likes_img = likes;
 export const toggle_btn_img = togglebtn;
+// Shop-Header
+export const technology_img = technology;
