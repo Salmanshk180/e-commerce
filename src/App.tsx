@@ -5,7 +5,9 @@ import Home from './pages/home/Home';
 function App() {
   return (
     <React.Fragment>
+      <div className='App'>
       <Home/>
+      </div>
     </React.Fragment>
   );
 }
