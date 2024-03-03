@@ -52,12 +52,12 @@ import "./svgs/unsplash_Bd7gNnWJBkU (1).svg";
 import "./svgs/unsplash_Lks7vei-eAg (1).svg";
 import "./svgs/unsplash_Lks7vei-eAg.svg";
 import "./svgs/unsplash_ruJm3dBXCqw.svg";
-import "./svgs/vector-1.svg";
-import "./svgs/vector-2.svg";
-import "./svgs/vector-3.svg";
-import "./svgs/vector-4.svg";
-import "./svgs/vector-5.svg";
-import "./svgs/vector-6.svg";
+import client1 from "./svgs/vector-1.svg";
+import client2 from "./svgs/vector-2.svg";
+import client3 from "./svgs/vector-3.svg";
+import client4 from "./svgs/vector-4.svg";
+import client5 from "./svgs/vector-5.svg";
+import client6 from "./svgs/vector-6.svg";
 import youtube from "./svgs/youtube.svg";
 
 export const Carousel_1 = Carousel1;
@@ -69,7 +69,7 @@ export const Carousel_5 = Carousel5;
 export const phone_img = phone;
 export const email_img = email;
 export const instagram_img = instagram;
-export const facebook_img = facebook; ;
+export const facebook_img = facebook;
 export const twitter_img = twitter;
 export const youtube_img = youtube;
 //Light-Navbar
@@ -80,3 +80,10 @@ export const likes_img = likes;
 export const toggle_btn_img = togglebtn;
 // Shop-Header
 export const technology_img = technology;
+//Clients
+export const client_img_1 = client1;
+export const client_img_2 = client2;
+export const client_img_3 = client3;
+export const client_img_4 = client4;
+export const client_img_5 = client5;
+export const client_img_6 = client6;
