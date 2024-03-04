@@ -7,7 +7,6 @@ import ShoppingCard from '../../components/shopping-cards/ShoppingCard'
 const Home = () => {
   return (
     <React.Fragment>
-       <Header/>
        <ShopHeader/>
        <Clients/>
        <ShoppingCard/>

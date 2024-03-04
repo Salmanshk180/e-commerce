@@ -1,13 +1,25 @@
-import React from 'react';
-import './App.css';
-import Home from './pages/home/Home';
+import React from "react";
+import "./App.css";
+import Home from "./pages/home/Home";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Layout from "./layout/Layout";
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        {
+          path: "",
+          element: <Home />,
+        },
+      ],
+    },
+  ]);
   return (
     <React.Fragment>
-      <div className='App'>
-      <Home/>
-      </div>
+      <RouterProvider router={router} />
     </React.Fragment>
   );
 }
