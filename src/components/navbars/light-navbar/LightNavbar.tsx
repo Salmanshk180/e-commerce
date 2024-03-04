@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import styles from "./LightNavbar.module.css";
+import { NavLink } from 'react-router-dom';
 import { login_img,search_img,cart_img,likes_img,toggle_btn_img } from '../../../assets/images';
 
 const LightNavbar = () => {
@@ -25,16 +26,16 @@ const LightNavbar = () => {
           >
             <div className={styles["nav-links-container"]}>
               <nav className={styles["nav-links"]}>
-                <a href="#">Home</a>
-                <a href="#">
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="#">
                   <select className={styles["select-button"]}>
                     <option value="shop">Shop</option>
                   </select>
-                </a>
-                <a href="#">About</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
-                <a href="#">Pages</a>
+                </NavLink>
+                <NavLink to="/about-us">About</NavLink>
+                <NavLink to="/blogs">Blog</NavLink>
+                <NavLink to="/contact-us">Contact</NavLink>
+                <NavLink to="/pages">Pages</NavLink>
               </nav>
             </div>
             <div className={styles["nav-buttons-container"]}>
