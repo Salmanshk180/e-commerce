@@ -49,8 +49,8 @@ import twitter from "./svgs/twitter.svg";
 import "./svgs/uil_arrow-growth.svg";
 import "./svgs/unsplash_75EFpyXu3Wg.svg";
 import p2 from "./svgs/unsplash_Bd7gNnWJBkU (1).svg";
-import "./svgs/unsplash_Lks7vei-eAg (1).svg";
-import "./svgs/unsplash_Lks7vei-eAg.svg";
+import desktopImage1 from"./svgs/unsplash_Lks7vei-eAg.svg";
+import desktopImage2 from "./svgs/unsplash_Lks7vei-eAg (1).svg";
 import "./svgs/unsplash_ruJm3dBXCqw.svg";
 import client1 from "./svgs/vector-1.svg";
 import client2 from "./svgs/vector-2.svg";
@@ -91,6 +91,9 @@ export const client_img_6 = client6;
 export const shopping_card_1 = p1;
 export const shopping_card_2 = p2;
 export const shopping_card_3 = p3;
+//Desktop-content
+export const desktop_content_image_1 = desktopImage1;
+export const desktop_content_image_2 = desktopImage2;
 //Footer
 export const footer_img_1 = footer_1;
 export const footer_img_2 = footer_2;
