@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ShopHeader.module.css";
-import { technology_img } from "../../assets/images";
-import Button from "../../UI/Button/Button";
+import { technology_img } from "../../../assets/images";
+import Button from "../../../UI/Button/Button";
 const ShopHeader = () => {
   return (
     <React.Fragment>

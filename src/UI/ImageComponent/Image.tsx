@@ -2,7 +2,7 @@ import { Fragment } from 'react'
 import styles from "./Image.module.css"
 
 interface Props{
-    src: string
+    src: string;
 }
 const Image = (props:Props) => {
   return (

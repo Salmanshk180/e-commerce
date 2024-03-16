@@ -3,8 +3,8 @@ import styles from "./DesktopContent.module.css";
 import {
   desktop_content_image_1,
   desktop_content_image_2,
-} from "../../assets/images";
-import Image from "../../UI/ImageComponent/Image";
+} from "../../../assets/images";
+import Image from "../../../UI/ImageComponent/Image";
 
 const DesktopContent = () => {
   return (

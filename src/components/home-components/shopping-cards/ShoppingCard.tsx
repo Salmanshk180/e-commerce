@@ -4,8 +4,8 @@ import {
   shopping_card_1,
   shopping_card_2,
   shopping_card_3,
-} from "../../assets/images";
-import Button from "../../UI/Button/Button";
+} from "../../../assets/images";
+import Button from "../../../UI/Button/Button";
 const ShoppingCard = () => {
   return (
     <React.Fragment>
