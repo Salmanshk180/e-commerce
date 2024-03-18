@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./DarkNavbar.module.css";
-import { phone_img,email_img,instagram_img,facebook_img,youtube_img,twitter_img } from "../../../assets/images";
+import { phone_img,email_img,instagram_img,facebook_img,youtube_img,twitter_img } from "../../../../assets/images";
 
 interface Props {
   background_color: string;

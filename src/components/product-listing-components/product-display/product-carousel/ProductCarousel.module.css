@@ -1,0 +1,14 @@
+.product_carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: auto;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .product_carousel {
+    justify-content: center;
+  }
+}

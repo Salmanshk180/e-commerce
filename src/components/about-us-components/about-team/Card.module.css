@@ -1,0 +1,35 @@
+.card {
+  margin-bottom: 50px;
+}
+.card > img{
+    width: 100%;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 16px;
+    color: #252b42;
+}
+
+.profession{
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+}

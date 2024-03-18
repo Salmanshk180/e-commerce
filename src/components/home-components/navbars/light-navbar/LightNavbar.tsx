@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import styles from "./LightNavbar.module.css";
 import { NavLink } from 'react-router-dom';
-import { login_img,search_img,cart_img,likes_img,toggle_btn_img } from '../../../assets/images';
+import { login_img,search_img,cart_img,likes_img,toggle_btn_img } from '../../../../assets/images';
 
 const LightNavbar = () => {
     const [navbarVisible, setNavbarVisible] = useState(false);

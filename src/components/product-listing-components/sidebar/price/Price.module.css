@@ -1,0 +1,18 @@
+.range-slider-container {
+  width: 150px;
+  margin-block: 20px 0px;
+}
+
+.price_text {
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.value_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 10px;
+}

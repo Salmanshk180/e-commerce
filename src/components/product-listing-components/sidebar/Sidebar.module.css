@@ -1,0 +1,133 @@
+.sidebar {
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+.components {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 16px;
+}
+.toggle_btn,
+.line {
+  display: none;
+}
+.close_btn {
+  display: none;
+}
+@media (max-width: 768px) {
+  .sidebar{
+    display: none;
+  }
+  .sidebar_active{
+    display: block;
+    z-index: 5;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    padding:0 0px;
+    left: 0;
+    backdrop-filter: brightness(0.5);  }
+  .container {
+    /* z-index: 2;
+    top: 200%;
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    background: #fff;
+    width: 100vw;
+    padding: 10px 0px;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid black;
+    left: 0;
+    align-items: center;
+    height: 100vh;
+    transition: top 0.5s ease-in-out;
+    opacity: 1; */
+    position: fixed;
+    background-color: #FFF;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: start;
+    bottom: 0%;
+
+  }
+  .line {
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 20px;
+    background-color: #626262;
+  }
+  .components {
+    width: 100%;
+    flex-direction: row;
+  }
+  .toggle_btn {
+    display: block;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .title {
+    display: none;
+  }
+  .active {
+    top: 15%;
+  }
+  .active .close_btn {
+    display: block;
+    /* position: absolute; */
+    /* top: 5%; */
+    right: 5%;
+    background: transparent;
+    border: none;
+    color: #248cc8;
+    font-size: 16px;
+  }
+}
+.drawer-container{
+  margin-block: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.drawer-container button{
+  text-align: left;
+  width: 90%;
+  background-color: transparent;
+  border-top: none;
+  border-left:none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 5px 5px;
+}
+@media screen and (max-width: 425px) {
+  .components {
+    justify-content: center;
+  }
+}

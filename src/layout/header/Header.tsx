@@ -1,6 +1,6 @@
 import React from "react";
-import DarkNavbar from "../../components/navbars/dark-navbar/DarkNavbar";
-import LightNavbar from "../../components/navbars/light-navbar/LightNavbar";
+import DarkNavbar from "../../components/home-components/navbars/dark-navbar/DarkNavbar";
+import LightNavbar from "../../components/home-components/navbars/light-navbar/LightNavbar";
 
 const Header = () => {
   return (
